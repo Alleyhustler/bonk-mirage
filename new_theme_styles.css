@@ -7,7 +7,7 @@ body, h1, h2, p, a {
 
 body {
     font-family: "Zen Tokyo Zoo", sans-serif;
-    background: linear-gradient(135deg, #d0cfcf, #b6b6b6); /* Keep the gradient or replace it with a solid color */
+    background: linear-gradient(135deg, #160b00, #b6b6b6); /* Keep the gradient or replace it with a solid color */
     color: #ffffff; /* Default text color set to white */
     overflow-x: hidden;
     transition: background 0.5s ease-in-out;
@@ -33,7 +33,7 @@ body {
 
 .title {
     font-size: 3rem;
-    color: #dffe31; /* White text color */
+    color: #ebc17f; /* White text color */
     text-shadow: 0 0 5px #2d2d2d, 0 0 10px #01140c; /* Less glowing */
     letter-spacing: 2px;
     transition: transform 0.3s ease-in-out;
@@ -64,8 +64,8 @@ body {
 .nav-item {
     padding: 15px 30px;
     border: 1px solid #ffffff; /* White border */
-    background: #ffffff63;
-    color: #dffe31; /* White text */
+    background: #0a0806fc;
+    color: #ebc17f; /* White text */
     text-shadow: 0 0 5px #000000, 0 0 10px #000000; /* Less glowing */
     font-size: 1.1rem;
     transition: background 0.3s ease, transform 0.3s ease;
@@ -84,7 +84,7 @@ body {
 
 .section {
     padding: 40px;
-    background: #dffe31;
+    background: #ebc17f;
     border: 1px solid #ffffff63; /* White border */
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Less glowing */
     transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -138,7 +138,7 @@ body {
 }
 
 #editor, #output {
-    background-color: #ffffff63;
+    background-color: #ffffff;
     border: 2px solid #ffffff; /* White border */
     color: #000000; /* White text */
     padding: 20px;
@@ -249,9 +249,9 @@ html, body {
 /* Section Styles */
 .section {
     padding: 20px;
-    background: #ffffff63;
+    background: #0a0806fc;
     border: 1px solid #ffffff; /* White border */
-    color: #dffe31; /* White text */
+    color: #ebc17f; /* White text */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Less glowing */
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
